@@ -13,10 +13,10 @@
       <div class="logo">Kevin Khadir Knights</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Sobre Mi</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -29,13 +29,51 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Sobre Mi</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="assets/kevin_knights_professional_picture.png"
+          alt="Kevin Knights profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hola, soy</p>
+        <h1 class="title">Kevin Khadir Knights</h1>
+        <p class="section__text__p2">Ingeniero de Machine Learning</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Kevin_Knights_CV_ESP.pdf', '_blank')"
+          >
+            Descargar CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contactame
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/knightsk/'"
+          />
+          <img
+            src="assets/github.png"
+            alt="My GitHub Profile"
+            class="icon"
+            onclick="location.href='https://www.github.com/kevinknights29'"
+          />
+        </div>
+      </div>
+    </section>
     <script src="js/script.js"></script>
   </body>
 </html>
